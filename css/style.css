@@ -1,0 +1,292 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 130px;
+}
+
+/* -----header-style-start---- */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.manuber {
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.manuber a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.header-details {
+    text-align: center;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 180px;
+    height: 64px;
+    border: 0;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.banner img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* -----header-style-end---- */
+
+
+/* -----first-section-style-start---- */
+
+.first-section-container {
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+}
+
+.first-section-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.first-section-right {
+    margin-top: 100px;
+    margin-left: 70px;
+    text-align: left;
+}
+
+.first-section-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.span1 {
+    color: #727272;
+}
+
+.span2 {
+    color: #131313;
+}
+
+.span3 {
+    color: #FF900E;
+}
+
+.first-section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+/* -----first-section-style-end---- */
+
+/* -----second-section-style-start---- */
+.second-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1 {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    border: 0;
+}
+
+.second-section-left-top {
+    display: flex;
+    align-items: center;
+}
+
+.second-section-top-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 20px;
+}
+
+.second-section-top-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.second-section-details {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.second-section-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.second-section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.last-button {
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 150px;
+}
+
+.last-button button {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+}
+
+.last-button-title1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.last-button-title2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* -----second-section-style-end---- */
+
+/* -----third-section-style-start---- */
+.third-section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.third-section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.third-section-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-section-items {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.third-section-container :hover {
+    transform: scale(.75) rotate(90deg);
+    background-color: aqua;
+}
+
+.third-section-items img {
+    margin-top: 45px;
+    width: 45.22px;
+    height: 45.22px;
+}
+
+.third-section-items h2 {}
+
+.third-section-items p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* -----third-section-style-end---- */
+/* -----forth-section-style-start---- */
+
+.forth-section-details {
+    text-align: center;
+}
+
+.forth-section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.forth-section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.forth-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.forth-section-container img {
+    width: 166.76px;
+    height: 50px;
+}
+
+/* -----forth-section-style-end---- */
+
+footer{
+    background: #FFF4E7;
+border-radius: 8px;
+    padding: 38px 410px;
+}
