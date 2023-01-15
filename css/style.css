@@ -333,14 +333,12 @@ header {
     color: #111111
 }
 
-
 .social-icons a {
     text-decoration: none;
     margin-right: 15px;
     color: red;
     font-size: 30px;
 }
-
 
 /* ----five-section-end----- */
 
@@ -356,11 +354,10 @@ footer {
     align-items: center;
     text-align: center;
 }
+
 /* -----footer-style-end-- */
 
-
 /* media quare */
-
 @media screen and (max-width: 576px) {
     body {
         width: 100%;
@@ -394,7 +391,6 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         gap: 25px;
     }
-
 
     .third-section-items {
         margin-bottom: 20px;
