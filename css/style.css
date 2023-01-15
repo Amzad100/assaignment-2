@@ -2,6 +2,11 @@ body {
     width: 1440px;
     margin: 0 auto;
     font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
 }
 
 section {
@@ -235,7 +240,7 @@ header {
 }
 
 .third-section-container :hover {
-    transform: scale(.75) rotate(90deg);
+    transform: scale(.75) rotate(360deg);
     background-color: aqua;
 }
 
@@ -285,13 +290,73 @@ header {
 
 /* -----forth-section-style-end---- */
 
+/* ----five-section-start----- */
+.five-section-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.five-section-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+.five-secrtion-items {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(197, 226, 215);
+    border-radius: 25px;
+}
+
+.five-secrtion-items img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.five-secrtion-items h6 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #b3b3b3
+}
+
+.five-secrtion-items h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e32a32
+}
+
+.five-secrtion-items p {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #111111
+}
+
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: red;
+    font-size: 30px;
+}
+
+
+/* ----five-section-end----- */
+
+/* -----footer-style-start-- */
 footer {
+    margin: 0 0;
     height: 100px;
+    width: 100%;
     background: #FFF4E7;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 50px;
 }
+/* -----footer-style-end-- */
 
 
 /* media quare */
@@ -299,7 +364,12 @@ footer {
 @media screen and (max-width: 576px) {
     body {
         width: 100%;
-        padding: 5px;
+        /* padding: 5px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .navber,
@@ -312,14 +382,19 @@ footer {
         align-items: center;
     }
 
+    .manuber a {
+        margin-right: 0;
+    }
+
+    .manuber {
+        row-gap: 25px;
+    }
+
     .first-section-left {
         grid-template-columns: repeat(1, 1fr);
         gap: 25px;
     }
 
-    .third-section {
-        text-align: center;
-    }
 
     .third-section-items {
         margin-bottom: 20px;
@@ -327,6 +402,12 @@ footer {
 
     .forth-section-container {
         row-gap: 25px;
+    }
+
+    .five-section-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
     }
 
     .last-button {
